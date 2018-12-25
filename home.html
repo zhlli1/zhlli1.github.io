@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+    <head>
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <!-- Favicon-->
+            <link rel="shortcut icon" href="img/fav.png">
+                <!-- Author Meta -->
+                <meta name="author" content="colorlib">
+                    <!-- Meta Description -->
+                    <meta name="description" content="">
+                        <!-- Meta Keyword -->
+                        <meta name="keywords" content="">
+                            <!-- meta character set -->
+                            <meta charset="UTF-8">
+                                <!-- Site Title -->
+                                <title>Zhi Li Personal Website</title>
+                                
+                                <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+                                    <!--
+                                     CSS
+                                     ============================================= -->
+                                    <link rel="stylesheet" href="css/linearicons.css">
+                                        <link rel="stylesheet" href="css/font-awesome.min.css">
+                                            <link rel="stylesheet" href="css/bootstrap.css">
+                                                <link rel="stylesheet" href="css/magnific-popup.css">
+                                                    <link rel="stylesheet" href="css/jquery-ui.css">
+                                                        <link rel="stylesheet" href="css/nice-select.css">
+                                                            <link rel="stylesheet" href="css/animate.min.css">
+                                                                <link rel="stylesheet" href="css/owl.carousel.css">
+                                                                    <link rel="stylesheet" href="css/main.css">
+                                                                        </head>
+    <body>
+        <header id="header">
+            <div class="container main-menu">
+                <div class="row align-items-center justify-content-between d-flex">
+                    <div id="logo">
+                        
+                    </div>
+                    <nav id="nav-menu-container">
+                        <ul class="nav-menu">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#project">Project</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav><!-- #nav-menu-container -->
+                </div>
+            </div>
+        </header><!-- #header -->
+        
+        <!-- Start home-about Area -->
+        <section class="home-about-area pt-120">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6 col-md-6 home-about-left">
+                        <img class="img-fluid" src="img/ZhiLi.jpg" alt="">
+                            </div>
+                    <div class="col-lg-5 col-md-6 home-about-right" id ='about'>
+                        <h1 class="text-uppercase">About Me</h1>
+                        <h4>Hey, there! I'm Zhi.  </h4>
+                        <p><p/>
+                        <p>
+                        I am currently a Master student in Data Science at the University of San Francisco.
+                        I also got a master’s degree in  Agronomy and Horticulture from University of California, Davis.
+                        As a data science intern at Fair.com, my primary role is to improve user performance by creating vehicle vectorization model and vehicle recommendation engine.
+                        </p>
+                        <p></p>
+                        
+                        <h3>Skills</h3>
+                        
+                        <ul class="feature-icons">
+                            <p></p>
+                            <ul class="social-links">
+                                <li><span style="color: #808080; font-weight: bold;"> Programming : </span> Python(Scikit-Learn, XGBoost, Pandas), R  </li>
+                                <li> <span style="color: #808080; font-weight: bold;"> Distributed Computing :  </span> Spark, AWS(EC2, S3, EMR)</li>
+                                <li> <span style="color: #808080; font-weight: bold;"> Database : </span>SQL(PostgreSQL), NoSQL(Mongo DB)  </li>
+                            </ul>
+                            
+                        </ul>
+                        <p></p>
+                        <p></p>
+                        <a href="CV.pdf"" class="primary-btn text-uppercase">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End home-about Area -->
+        
+        
+        
+        <!-- Start Project Area -->
+        <section class="portfolio-area section-gap" id="project">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-70 col-lg-8">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Featured Projects</h1>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="filters">
+                    <ul>
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".vector">Data Acquisition</li>
+                        <li data-filter=".raster">Time Series</li>
+                        <li data-filter=".ui">Machine Learning</li>
+                        <li data-filter=".printing">Distributed Computing</li>
+                    </ul>
+                </div>
+                
+                <div class="filters-content">
+                    <div class="row grid">
+                        <div class="single-portfolio col-sm-4 all vector">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <div class="overlay overlay-bg"></div>
+                                    <img class="image img-fluid" src="img/re.jpg" alt="">
+                                        <p> Built a recommendation engine to recommend the five most similar articles for each article in the BBC dataset.
+                                        </p>
+                                        </div>
+                                <a href="https://github.com/zhlli1/Recommending_Articles-word2vec-">
+                                    <div class="middle">
+                                        <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-inner">
+                                <a href="https://github.com/zhlli1/Recommending_Articles-word2vec-"><h4>Article Recommendation</h4></a>
+                                <div class="cat">Data Acquisition</div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio col-sm-4 all vector">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <div class="overlay overlay-bg"></div>
+                                    <img class="image img-fluid" src="img/twitter.png" alt="">
+                                        <p> Pulled data from twitter using the tweepy wrapper, analyzed the intensity of sentiment of tiwtter posts and visualized them.
+                                        </p>
+                                        </div>
+                                <a href="https://github.com/zhlli1/Twitter-sentiment-analysis-">
+                                    <div class="middle">
+                                        <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-inner">
+                                <a href="https://github.com/zhlli1/Twitter-sentiment-analysis-"><h4>Twitter Sentiment Analysis </h4></a>
+                                <div class="cat">Data Acquisition</div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio col-sm-4 all raster">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <div class="overlay overlay-bg"></div>
+                                    <img class="image img-fluid" src="img/ts.jpg" alt="">
+                                        <p>
+                                         Built both univariate and multivariate time series models to predict monthly Canadian National Bankruptcy Rates.
+                                        </p>
+                                        </div>
+                                <a href="https://github.com/zhlli1/Bankruptcy-Time-Series">
+                                    <div class="middle">
+                                        <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                            <div class="p-inner">
+                                <a href="https://github.com/zhlli1/Bankruptcy-Time-Series"><h4>Canada Bankruptcy  Rates prediction </h4></a>
+                                <div class="cat">Time Series Analysis</div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio col-sm-4 all printing">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <div class="overlay overlay-bg"></div>
+                                    <img class="image img-fluid" src="img/cs.png" alt="">
+                                        </div>
+                                <a href="#">
+                                    <div class="middle">
+                                        <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-inner">
+                                <h4>Coming Soon</h4>
+                                <div class="cat">Distributed Computing</div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio col-sm-4 all ui">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <div class="overlay overlay-bg"></div>
+                                    <img class="image img-fluid" src="img/robot.png" alt="">
+                                        </div>
+                                
+                                    <a href="https://github.com/crystalxs/msds621FinalProject">
+                                    <div class="middle">
+                                        <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-inner">
+                                <h4><a href="https://github.com/crystalxs/msds621FinalProject">Bidder: Robot or Human? </h4></a>
+                                <div class="cat">Machine Learning</div>
+                            </div>
+                        </div>
+                        <div class="single-portfolio col-sm-4 all ui">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <div class="overlay overlay-bg"></div>
+                                    <img class="image img-fluid" src="img/cs.png" alt="">
+                                        </div>
+                                <a href="#" >
+                                    <div class="middle">
+                                        <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
+                                    </div>
+                                </a>                             		
+                            </div>
+                            <div class="p-inner">
+                                <h4>Coming Soon</h4>
+                                <div class="cat">Machine Learning</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End portfolio-area Area -->	
+        <!-- End Project Area -->
+        
+        <!-- Start Contact Area -->
+        <section  id="contact">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-70 col-lg-8">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Contact </h1>
+                            <ul class="social-links">
+                                
+                                <h4> Address: San Francisco, CA</h4>
+                                <p></p>
+                                <p></p>
+                                <h4> Email: zli142 at usfca.edu</h4>
+                                <p></p>
+                                <p></p>
+                                <h4> Github : <a href="https://github.com/zhlli1"><img src="img/git.png" alt=""></i></a><h4>
+                                    <p></p>
+                                    <h4> LinkedIn: <a href="https://www.linkedin.com/in/zhi--li/"><img src="img/in.png" alt=""></a><h4>
+                                        </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- start Footer area -->
+                <section id="footer">
+                    <div class="container">
+                        <ul class="copyright">
+                            <li><script>document.write(new Date().getFullYear());</script> Zhi, Li. All rights reserved | Design: <a href="https://colorlib.com">Colorlib</a></li>
+                        </ul>
+                    </div>
+                </section>
+                
+            </div>
+            
+                <!-- End Footer area-->
+                
+                
+
+                
+                <script src="js/vendor/jquery-2.2.4.min.js"></script>
+                <script src="js/popper.min.js"></script>
+                <script src="js/vendor/bootstrap.min.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+                <script src="js/easing.min.js"></script>			
+                <script src="js/hoverIntent.js"></script>
+                <script src="js/superfish.min.js"></script>	
+                <script src="js/jquery.ajaxchimp.min.js"></script>
+                <script src="js/jquery.magnific-popup.min.js"></script>	
+                <script src="js/jquery.tabs.min.js"></script>						
+                <script src="js/jquery.nice-select.min.js"></script>	
+                <script src="js/isotope.pkgd.min.js"></script>			
+                <script src="js/waypoints.min.js"></script>
+                <script src="js/jquery.counterup.min.js"></script>
+                <script src="js/simple-skillbar.js"></script>							
+                <script src="js/owl.carousel.min.js"></script>							
+                <script src="js/mail-script.js"></script>	
+            <script src="js/main.js"></script>
+    </body>
+</html>
+
